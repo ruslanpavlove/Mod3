@@ -8,11 +8,6 @@ class Hero implements Creature {
         this.hp -= damage;
     }
 
-    @Override
-    public boolean isGlyphActive() {
-        return false;
-    }
-
     public int getHp() {
         return hp;
     }

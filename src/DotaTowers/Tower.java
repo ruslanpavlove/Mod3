@@ -3,41 +3,40 @@ package DotaTowers;
 abstract class Tower implements Glyphable {
     protected int damage;
     protected int armorBonus;
-    private boolean glyphActive = false;
+    protected boolean glyphActive = false;
 
     public Tower(int damage, int armorBonus) {
         this.damage = damage;
         this.armorBonus = armorBonus;
-        this.glyphActive = false;
+    }
+
+    protected int multiShotCount() {
+        return 1;
     }
 
     public void attack(Creature creature) {
-        if (creature instanceof Hero || !creature.isGlyphActive()) {
-            creature.receiveDamage(this.damage);
+        boolean canAttack = true;
+        if (creature instanceof GlyphAffected && ((GlyphAffected) creature).isGlyphActive()) {
+            canAttack = false;
         }
-        if (this.glyphActive && (this instanceof TowerLevel3 || this instanceof TowerLevel4)) {
-            creature.receiveDamage(this.damage);
-            creature.receiveDamage(this.damage);
+        if (canAttack) {
+            for (int i = 0; i < multiShotCount(); i++) {
+                creature.receiveDamage(damage);
+            }
         }
-    }
-
-    public int getArmorBonus() {
-        return armorBonus;
     }
 
     @Override
     public void activateGlyph() {
-        this.glyphActive = true;
-        System.out.println("Глиф активирован для вышки!");
+        glyphActive = true;
     }
 
     @Override
     public void deactivateGlyph() {
-        this.glyphActive = false;
-        System.out.println("Глиф деактивирован для вышки!");
+        glyphActive = false;
     }
 
-    public boolean isGlyphActive() {
-        return glyphActive;
+    public int getArmorBonus() {
+        return armorBonus;
     }
 }

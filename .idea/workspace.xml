@@ -4,52 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17b6a114-85d5-43c2-9573-09447e444bc0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DotaTowers/Creature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DotaTowers/Creep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DotaTowers/Glyphable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DotaTowers/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DotaTowers/MageCreep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DotaTowers/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DotaTowers/MeleeCreep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DotaTowers/Tower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DotaTowers/TowerLevel1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DotaTowers/TowerLevel2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DotaTowers/TowerLevel3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DotaTowers/TowerLevel4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Robot/Direction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Robot/MoveRobot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Robot/Robot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Shapes/Calculate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Shapes/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Shapes/EquilateralTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Shapes/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Shapes/Parallelogram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Shapes/Quadrilateral.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Shapes/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Shapes/RightTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Shapes/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Shapes/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Shapes/Trapezoid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Shapes/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShapesWithoutInterface/Calculate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShapesWithoutInterface/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShapesWithoutInterface/EquilateralTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShapesWithoutInterface/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShapesWithoutInterface/Parallelogram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShapesWithoutInterface/Quadrilateral.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShapesWithoutInterface/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShapesWithoutInterface/RightTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShapesWithoutInterface/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShapesWithoutInterface/Trapezoid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShapesWithoutInterface/Triangle.java" afterDir="false" />
+    <list default="true" id="17b6a114-85d5-43c2-9573-09447e444bc0" name="Changes" comment="Robot, Shapes, DotaTowers">
+      <change afterPath="$PROJECT_DIR$/src/DotaTowers/GlyphAffected.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DotaTowers/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DotaTowers/Creature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DotaTowers/Creep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DotaTowers/Creep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DotaTowers/Glyphable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DotaTowers/Glyphable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DotaTowers/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DotaTowers/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DotaTowers/Tower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DotaTowers/Tower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DotaTowers/TowerLevel3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DotaTowers/TowerLevel3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DotaTowers/TowerLevel4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DotaTowers/TowerLevel4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -156,12 +120,19 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.DotaTowers.Main" />
-        <item itemvalue="Application.ShapesWithoutInterface.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ShapesWithoutInterface.Main" />
         <item itemvalue="Application.ShapeUtils" />
         <item itemvalue="Application.MoveRobot" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-8336523bb0d9-55c9c8bc" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -172,6 +143,19 @@
       <option name="presentableId" value="Default" />
       <updated>1707602942727</updated>
     </task>
+    <task id="LOCAL-00001" summary="Robot, Shapes, DotaTowers">
+      <option name="closed" value="true" />
+      <created>1707625335091</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707625335091</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Robot, Shapes, DotaTowers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Robot, Shapes, DotaTowers" />
   </component>
 </project>
